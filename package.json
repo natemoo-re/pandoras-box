@@ -9,6 +9,7 @@
     "preview": "astro preview",
     "astro": "astro"
   },
+  "packageManager": "pnpm@8.6.12",
   "dependencies": {
     "astro": "^3.2.3"
   }
