@@ -19,4 +19,4 @@ jobs:
     steps:
       - name: Install, build, and upload your site output
         id: deploy
-        uses: withastro/action/action.yml@configure-site
+        uses: withastro/action@configure-site
