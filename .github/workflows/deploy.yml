@@ -17,6 +17,6 @@ jobs:
       name: github-pages
       url: ${{ steps.deploy.outputs.url }}
     steps:
-      - name: Install, build, and upload your site output
+      - name: Build and Deploy
         id: deploy
         uses: withastro/action@configure-site
